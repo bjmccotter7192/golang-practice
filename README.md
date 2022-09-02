@@ -1,1 +1,1 @@
-# golang-nygiants-api
+# golang practice
