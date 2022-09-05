@@ -11,6 +11,12 @@ type hotdog int
 var hd hotdog
 
 func main() {
+	learnTheBasics() //Just playing around with the basics
+
+	ninjaExercise1() // First hand on example of Ninja/Jedi exercises
+}
+
+func learnTheBasics() {
 	fmt.Println("Testing this out")
 
 	myNum := 15
@@ -29,4 +35,15 @@ func main() {
 	fmt.Printf("%T\n", hd)
 
 	testNum = int(hd) // Converting variables just use T(val)
+}
+
+func ninjaExercise1() {
+	x := 42
+	y := "James Bond"
+	z := true
+
+	fmt.Printf("%s is %d years old, is that true? %t\n", y, x, z)
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
 }
