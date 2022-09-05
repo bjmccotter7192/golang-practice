@@ -27,4 +27,6 @@ func main() {
 
 	hd = 43
 	fmt.Printf("%T\n", hd)
+
+	testNum = int(hd) // Converting variables just use T(val)
 }
