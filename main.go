@@ -30,5 +30,5 @@ func main() {
 	/*
 		NINJA Level 2 Hands On Exercises
 	*/
-	bjmac.NinjaLevel2_Exercise1()
+	bjmac.NinjaLevel_2_Exercise_1()
 }
