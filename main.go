@@ -4,16 +4,23 @@ import (
 	"fmt"
 )
 
-var testNum = 10
-
 type hotdog int
+type bjmac int
 
 var hd hotdog
+var xBjMac bjmac
+
+var testNum = 10
+var xInt int
+var yString string
+var zBool bool
 
 func main() {
 	learnTheBasics() //Just playing around with the basics
-
-	ninjaExercise1() // First hand on example of Ninja/Jedi exercises
+	ninjaExercise1() // First hands on example of Ninja/Jedi exercises
+	ninjaExercise2() // Second hands on example of Ninja/Jedi exercies
+	ninjaExercise3() // Third hands on example of Ninja/Jedi exercies
+	ninjaExercise4() // Forth hands on example of Ninja/Jedi exercies
 }
 
 func learnTheBasics() {
@@ -46,4 +53,24 @@ func ninjaExercise1() {
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
+}
+
+func ninjaExercise2() {
+	fmt.Println(xInt, yString, zBool)
+}
+
+func ninjaExercise3() {
+	xInt = 42
+	yString = "James Bond"
+	zBool = true
+
+	s := fmt.Sprintf("%v\t%s\t%t", xInt, yString, zBool)
+	fmt.Println(s)
+}
+
+func ninjaExercise4() {
+	fmt.Println(xBjMac)
+	fmt.Printf("%T\n", xBjMac)
+	xBjMac = 42
+	fmt.Println(xBjMac)
 }
