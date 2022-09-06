@@ -27,8 +27,17 @@ func main() {
 	bjmac.NumeralSystemsPlayground()
 	bjmac.BitShiftingFun()
 
+	fmt.Println("================================================")
+
 	/*
 		NINJA Level 2 Hands On Exercises
 	*/
 	bjmac.NinjaLevel_2_Exercise_1()
+	bjmac.NinjaLevel_2_Exercise_2()
+	bjmac.NinjaLevel_2_Exercise_3()
+	bjmac.NinjaLevel_2_Exercise_4()
+	bjmac.NinjaLevel_2_Exercise_5()
+	bjmac.NinjaLevel_2_Exercise_6()
+
+	// fmt.Println("================================================")
 }
