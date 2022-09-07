@@ -47,4 +47,5 @@ func main() {
 	bjmac.NinjaLevel_3_Exercise_4()
 	bjmac.NinjaLevel_3_Exercise_5()
 	bjmac.NinjaLevel_3_Exercise_6()
+	bjmac.NinjaLevel_3_Exercise_7()
 }

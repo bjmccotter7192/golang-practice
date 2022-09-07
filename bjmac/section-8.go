@@ -67,14 +67,26 @@ func NinjaLevel_3_Exercise_6() {
 	for x := 10; x <= 100; x++ {
 		remainder := x % 4
 
-		if remainder == 0 {
-			fmt.Println("Remainder is 0")
-		} else if remainder == 1 {
-			fmt.Println("Remainder is 1")
-		} else if remainder == 2 {
-			fmt.Println("Remainder is 2")
+		if remainder >= 2 {
+			fmt.Println("Greater than 2")
 		} else {
-			fmt.Println("Remainder is 3")
+			fmt.Println("Chicken")
+		}
+	}
+}
+
+func NinjaLevel_3_Exercise_7() {
+	for x := 10; x <= 100; x++ {
+		remainder := x % 4
+
+		if remainder == 0 {
+			fmt.Println("Equal to 0")
+		} else if remainder == 1 {
+			fmt.Println("Equal to 1")
+		} else if remainder == 2 {
+			fmt.Println("Equal to 2")
+		} else {
+			fmt.Println("Equal to 3")
 		}
 	}
 }
