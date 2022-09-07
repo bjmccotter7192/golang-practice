@@ -41,4 +41,10 @@ func main() {
 	// fmt.Println("================================================")
 
 	bjmac.ControlFlowFun()
+	bjmac.NinjaLevel_3_Exercise_1()
+	bjmac.NinjaLevel_3_Exercise_2()
+	bjmac.NinjaLevel_3_Exercise_3()
+	bjmac.NinjaLevel_3_Exercise_4()
+	bjmac.NinjaLevel_3_Exercise_5()
+	bjmac.NinjaLevel_3_Exercise_6()
 }
