@@ -49,4 +49,8 @@ func main() {
 	bjmac.NinjaLevel_3_Exercise_5()
 	bjmac.NinjaLevel_3_Exercise_6()
 	bjmac.NinjaLevel_3_Exercise_7()
+
+	fmt.Println("================================================")
+
+	// Place Section 9 stuff here, grouping data section
 }
