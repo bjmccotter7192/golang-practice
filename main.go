@@ -53,4 +53,14 @@ func main() {
 	fmt.Println("================================================")
 
 	// Place Section 9 stuff here, grouping data section
+	bjmac.ArrayFun()
+	bjmac.SliceFun()
+	bjmac.SlicingASlice()
+	bjmac.AppendingSlices()
+	bjmac.DeletingFromSlice()
+	bjmac.SliceUsingMake()
+	bjmac.MultiSliceSlice()
+	bjmac.MapFun()
+	bjmac.AddToMap()
+	bjmac.DeleteEntryFromMap()
 }
