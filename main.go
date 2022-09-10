@@ -7,7 +7,8 @@ import (
 
 func main() {
 	/*
-		This section covers Variables, values, and type
+		Section 1 - 5 Basics
+		Ninja Level 1
 	*/
 	bjmac.LearnTheBasics() //Just playing around with the basics
 	bjmac.NinjaExercise1() // First hands on example of Ninja/Jedi exercises
@@ -18,7 +19,8 @@ func main() {
 	fmt.Println("================================================")
 
 	/*
-		This section covers programming fundamentals
+		Section 6 - 7 Programming Fundamentals
+		Ninja Level 2
 	*/
 	bjmac.BoolTypePractice()
 	bjmac.WorkingWithInts()
@@ -27,11 +29,6 @@ func main() {
 	bjmac.NumeralSystemsPlayground()
 	bjmac.BitShiftingFun()
 
-	fmt.Println("================================================")
-
-	/*
-		NINJA Level 2 Hands On Exercises
-	*/
 	bjmac.NinjaLevel_2_Exercise_1()
 	bjmac.NinjaLevel_2_Exercise_2()
 	bjmac.NinjaLevel_2_Exercise_3()
@@ -41,6 +38,10 @@ func main() {
 
 	fmt.Println("================================================")
 
+	/*
+		Section 8 - 9 Control Flow
+		Ninja Level 3
+	*/
 	bjmac.ControlFlowFun()
 	bjmac.NinjaLevel_3_Exercise_1()
 	bjmac.NinjaLevel_3_Exercise_2()
@@ -52,7 +53,10 @@ func main() {
 
 	fmt.Println("================================================")
 
-	// Place Section 9 stuff here, grouping data section
+	/*
+		Section 10 - 11 Grouping Data
+		Ninja Level 4
+	*/
 	bjmac.ArrayFun()
 	bjmac.SliceFun()
 	bjmac.SlicingASlice()
@@ -63,4 +67,14 @@ func main() {
 	bjmac.MapFun()
 	bjmac.AddToMap()
 	bjmac.DeleteEntryFromMap()
+
+	fmt.Println("================================================")
+
+	/*
+		Section 12 - 13 Structs
+		Ninja Level 5
+	*/
+	bjmac.StructPlayground()
+	bjmac.AnonymousStructs()
+	bjmac.StructInStruct()
 }
